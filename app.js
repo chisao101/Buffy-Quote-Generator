@@ -16,19 +16,27 @@ let allQuotes = [
         quoteSpeaker: "~ Willow Rosenberg",
         image: "url('./images/buffy-the-vampire-slayer-feature-1280x720.png')",
     },
+    {
+        quotedText: "You Think You Know What\'s To Come, What You Are. You Haven\'t Even Begun.", 
+        quoteSpeaker: "~ Buffy Summers",
+        image: "url('./images/263598-buffy-finale.jpg')",
+    },
+    {
+        quotedText: "The hardest thing in this world is to live in it.", 
+        quoteSpeaker: "~ Buffy Summers",
+        image: "url('./images/buffy-once-more-1280x720.jpg')",
+    },
+    {
+        quotedText: "Well, a gathering is brie, mellow song stylings; shindig, dip, less mellow song stylings, perhaps a large amount of malt beverage; and hootenanny, well, it\'s chock full of hoot, just a little bit of nanny.", 
+        quoteSpeaker: "~ Daniel \"Oz\" Osbourne",
+        image: "url('./images/buffy-fullCast.jpg')",
+    },
+    {
+        quotedText: "Out. For. A. Walk ...Bitch.", 
+        quoteSpeaker: "~ William \"Spike\" Pratt,<br>AKA William The Bloody",
+        image: "url('./images/23-1280x720.jpeg')",
+    },
 ]
-    //"I might be love\'s bitch, but at least I\'m man enough to admit it.",
-    //"You Think You Know What\'s To Come, What You Are. You Haven\'t Even Begun.",]
-//    ["speaker": "~ Spike" "quote": ]
-//    {speaker: '~ Buffy Summers' quote: ''}
-//    {speaker: 'Xander Harris' quote: 'And If Giles Wants To Go After The, Uh, Fiend That Murdered His Girlfriend, I Say, \"Faster, Pussycat, Kill, Kill.\"'}
- //   {speaker: '~ Daniel \"Oz\" Osbourne' quote: 'Well, a gathering is brie, mellow song stylings; shindig, dip, less mellow song stylings, perhaps a large amount of malt beverage; and hootenanny, well, it\'s chock full of hoot, just a little bit of nanny.'}
-  //  {speaker: '~ Buffy Summers' quote: 'The hardest thing in this world is to live in it.'}
-///    {speaker: 'William \"Spike\" Pratt,<br>AKA William The Bloody' quote: 'Out. For. A. Walk ...Bitch.'}
-//    {speaker: '' quote: ''}
-
-
-
 
 //make variable from button
 const generateBtn = document.querySelector('.generator-btn');
