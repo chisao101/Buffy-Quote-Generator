@@ -48,7 +48,7 @@ body{
     padding: 1em;
     position: absolute;
     width: 100%;
-    bottom: -12em;
+    bottom: -16em;
 }
 
 .image-container:hover .quote-container{
