@@ -46,8 +46,11 @@ let quote = document.querySelector('.quote');
 let speaker =document.querySelector('.speaker');
 //Variable for .image class
 let image = document.querySelector('.image');
+// variable for quote-container
+let quoteContainer = document.querySelector('.quote-container');
 //Eventlistener for button
-generateBtn.addEventListener('click', generateQuote);
+generateBtn.addEventListener('mousedown', generateQuote);
+generateBtn.addEventListener('mouseup', slideUp);
     //function to generate a quote
     function generateQuote(event){
         //generate random number and round to whole number based on total number of quotes in array
@@ -62,20 +65,29 @@ generateBtn.addEventListener('click', generateQuote);
         speaker.innerHTML = values[1];
         //Change backgorund image in image style
         image.style.backgroundImage = values[2];
-        
-
-
-
-
-
+        quoteContainer.style.bottom = "-16em";
+        quoteContainer.style.transition = "all 500ms ease-out";
+    }    
+    function slideUp(event){
+        quoteContainer.style.bottom = "0";
+        quoteContainer.style.transition = "all 500ms ease-out";
     }
 
 
 
 
 
-    //Too loop through this array:
-   // for (var i=0; i<alQuotes.length; i++)
-   // {
-   // alert(“Item# “ + i + “\nAuthor “ + allQuotes[i].Author + “ Quote “ + allQuotes[i].Quote);
-   // }
+/*    
+    let myClass = document.querySelector('.my-class');
+    myBtn.addEventListener('mousedown', function1);
+    myBtn.addEventListener('mouseup', function2);
+
+    function function1(event){
+        myClass.style.bottom = "-16em";
+    }
+
+    function function2(event){
+        myClass.style.bottom = "0";
+    }
+
+*/
