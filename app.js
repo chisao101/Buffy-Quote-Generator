@@ -86,6 +86,136 @@ let allQuotes = [
         quoteSpeaker: "~  The Master",
         image: "url('./images/buffyQuote-00017.png')",
     },
+    {
+        quotedText: "Tonight I shall walk the earth and the stars themselves will hide.", 
+        quoteSpeaker: "~  The Master",
+        image: "url('./images/buffyQuote-00018.png')",
+    },
+    {
+        quotedText: "No. The tapes all say I should get used to saying it. No. ", 
+        quoteSpeaker: "~  Joyce Summers",
+        image: "url('./images/buffyQuote-00019.png')",
+    },
+    {
+        quotedText: "I am not the type to settle, you know? It\'s like when I go shopping. I have to have the most expensive thing, not because it\'s expensive, but because it costs more.", 
+        quoteSpeaker: "~   Cordelia Chase",
+        image: "url('./images/buffyQuote-00020.png')",
+    },
+    {
+        quotedText: "Jesse is dead. You have to remember that. When you see him, you\'re not looking at your friend. You\'re looking at the thing that killed him.", 
+        quoteSpeaker: "~  Rupert Giles",
+        image: "url('./images/buffyQuote-00021.png')",
+    },
+    {
+        quotedText: "We may, in fact, stand between the earth and it's total destruction.", 
+        quoteSpeaker: "~  Rupert Giles",
+        image: "url('./images/buffyQuote-00022.png')",
+    },
+    {
+        quotedText: "The earth is doomed.", 
+        quoteSpeaker: "~  Rupert Giles",
+        image: "url('./images/buffyQuote-00023.png')",
+    },
+    {
+        quotedText: "This is madness. What can you have been thinking? You are the slayer. Lives depend upon you. I make allowances for your youth, but I expect a certain amount of responsibility, instead of which you enslave yourself to this - this...cult?", 
+        quoteSpeaker: "~  Rupert Giles",
+        image: "url('./images/buffyQuote-00024.png')",
+    },
+    {
+        quotedText: "You have a sacred birthright, Buffy. You were chosen to destroy vampires, not to...wave pompoms at people. And as the watcher, I forbit it.", 
+        quoteSpeaker: "~  Rupert Giles",
+        image: "url('./images/buffyQuote-00025.png')",
+    },
+    {
+        quotedText: "I\'d say he should get a girlfriend if he wasn\'t so old.", 
+        quoteSpeaker: "~  Buffy Summers",
+        image: "url('./images/buffyQuote-00026.png')",
+    },
+    {
+        quotedText: "You\'re the slayer and we\'re, like, the slayerettes.", 
+        quoteSpeaker: "~   Willow Rosenberg",
+        image: "url('./images/buffyQuote-00027.png')",
+    },
+    {
+        quotedText: "First vampires, now witches. No wonder you can still afford a house in Sunnydale.", 
+        quoteSpeaker: "~  Xander Harris",
+        image: "url('./images/buffyQuote-00028.png')",
+    },
+    {
+        quotedText: "You\'re my Xander-shaped friend. Do you have any idea why I love you so, Xander? I\'ll tell you. You\'re not like other boys at all. You are totally and completely one of the girls. I\'m that comfy with him.", 
+        quoteSpeaker: "~  Buffy Summers",
+        image: "url('./images/buffyQuote-00029.png')",
+    },/*
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00030.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00031.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00032.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00033.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00034.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00035.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00036.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00037.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00038.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00039.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00040.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00041.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00042.png')",
+    },
+    {
+        quotedText: "", 
+        quoteSpeaker: "~  ",
+        image: "url('./images/buffyQuote-00043.png')",
+    },*/
 ]
 
 //make variable from button
