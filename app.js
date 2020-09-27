@@ -72,22 +72,3 @@ generateBtn.addEventListener('mouseup', slideUp);
         quoteContainer.style.bottom = "0";
         quoteContainer.style.transition = "all 500ms ease-out";
     }
-
-
-
-
-
-/*    
-    let myClass = document.querySelector('.my-class');
-    myBtn.addEventListener('mousedown', function1);
-    myBtn.addEventListener('mouseup', function2);
-
-    function function1(event){
-        myClass.style.bottom = "-16em";
-    }
-
-    function function2(event){
-        myClass.style.bottom = "0";
-    }
-
-*/
