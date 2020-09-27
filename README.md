@@ -5,4 +5,4 @@
 ### HTML
 
 
-[button.generateQuote]
+[button]

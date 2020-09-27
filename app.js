@@ -2,39 +2,89 @@ window.onload = generateQuote;
 //Array of quotes
 let allQuotes = [
     {
-        quotedText: "I might be love\'s bitch, but at least I\'m man enough to admit it.", 
-        quoteSpeaker: "~ Willam \"Spike\" Pratt",
-        image: "url('./images/buffy-blue-bg.jpg')",        
+        quotedText: "In every generation there is a chosen one. She alone will stand against the vampires, the demons and the forces of darkness. She is the slayer.", 
+        quoteSpeaker: "~  Narrator",
+        image: "url('./images/buffyQuote-00001.png')",        
     },
     {
-        quotedText: "And If Giles Wants To Go After The, Uh, Fiend That Murdered His Girlfriend, I Say, \"Faster, Pussycat, Kill, Kill.\"", 
-        quoteSpeaker: "~ Xander Harris",
-        image: "url('./images/buffy-fan-art.jpg')",
+        quotedText: "Willow, nice dress. Good to know you've seen the softer side of Sears.", 
+        quoteSpeaker: "~  Cordelia Chase",
+        image: "url('./images/buffyQuote-00002.png')",
     },
     {
-        quotedText: "That\'s me as a vampire? I\'m so skanky. And I think I\'m kind of gay.", 
-        quoteSpeaker: "~ Willow Rosenberg",
-        image: "url('./images/buffy-the-vampire-slayer-feature-1280x720.png')",
+        quotedText: "To make you a vampire they have to suck your blood and then you have to suck their blood. It\'s, like, a whole big sucking thing. Mostly they're just gonna kill you.", 
+        quoteSpeaker: "~  Buffy Summers",
+        image: "url('./images/buffyQuote-00003.png')",
     },
     {
-        quotedText: "You Think You Know What\'s To Come, What You Are. You Haven\'t Even Begun.", 
+        quotedText: "I believe this whole area is a center of mystical energy, that things gravitate towards it that you might not find elsewhere...zombies, werewolves, incubi, succubi - everything you\'ve ever dreaded was under your bed but told yourself couldn\'t be by the light of day. They\'re all real.", 
+        quoteSpeaker: "~  Rupert Giles",
+        image: "url('./images/buffyQuote-00004.png')",
+    },
+    {
+        quotedText: "Oh, come on, this is Sunnydale. How bad an evil can there be?", 
         quoteSpeaker: "~ Buffy Summers",
-        image: "url('./images/263598-buffy-finale.jpg')",
+        image: "url('./images/buffyQuote-00005.png')",
     },
     {
-        quotedText: "The hardest thing in this world is to live in it.", 
-        quoteSpeaker: "~ Buffy Summers",
-        image: "url('./images/buffy-once-more-1280x720.jpg')",
+        quotedText: "From now on I'm only going to hang out with the living.", 
+        quoteSpeaker: "~  Buffy Summers",
+        image: "url('./images/buffyQuote-00006.png')",
     },
     {
-        quotedText: "Well, a gathering is brie, mellow song stylings; shindig, dip, less mellow song stylings, perhaps a large amount of malt beverage; and hootenanny, well, it\'s chock full of hoot, just a little bit of nanny.", 
-        quoteSpeaker: "~ Daniel \"Oz\" Osbourne",
-        image: "url('./images/buffy-fullCast.jpg')",
+        quotedText: "Seize the moment \'cause tomorrow you might be dead.", 
+        quoteSpeaker: "~  Buffy Summers",
+        image: "url('./images/buffyQuote-00007.png')",
     },
     {
-        quotedText: "Out. For. A. Walk ...Bitch.", 
-        quoteSpeaker: "~ William \"Spike\" Pratt,<br>AKA William The Bloody",
-        image: "url('./images/23-1280x720.jpeg')",
+        quotedText: "Nobody cool has Epstein-Barr anymore.", 
+        quoteSpeaker: "~  Cordelia Chase",
+        image: "url('./images/buffyQuote-00008.png')",
+    },
+    {
+        quotedText: "God! What is your childhood trauma?", 
+        quoteSpeaker: "~  Cordelia Chase",
+        image: "url('./images/buffyQuote-00009.png')",
+    },
+    {
+        quotedText: "You're strong. I'm stronger.", 
+        quoteSpeaker: "~  Luke",
+        image: "url('./images/buffyQuote-00010.png')",
+    },
+    {
+        quotedText: "I\'m your faithful dog. You bring me scraps.", 
+        quoteSpeaker: "~  The Master",
+        image: "url('./images/buffyQuote-00011.png')",
+    },
+    {
+        quotedText: "The slayer hunts vampires. Buffy is the slayer. Don\'t tell anyone.", 
+        quoteSpeaker: "~  Rupert Giles",
+        image: "url('./images/buffyQuote-00012.png')",
+    },
+    {
+        quotedText: "God! I am so mentally challenged.", 
+        quoteSpeaker: "~  Buffy Summers",
+        image: "url('./images/buffyQuote-00013.png')",
+    },
+    {
+        quotedText: "Yesterday my life is like, \'Uh-Oh, pop quiz\'. Today it\'s rain of toads.", 
+        quoteSpeaker: "~  Xander Harris",
+        image: "url('./images/buffyQuote-00014.png')",
+    },
+    {
+        quotedText: "Do you know what it\'s like to have a friend? ...That wasn\'t supposed to be a stumper.", 
+        quoteSpeaker: "~  Buffy Summers",
+        image: "url('./images/buffyQuote-00015.png')",
+    },
+    {
+        quotedText: "There was this time I was pinned down by this guy that played left tackle for varsity. Well, at least he used to, before he was a vampire. Anyway, he had this really, really thick neck, and all I had was this little, little X-acto knife...", 
+        quoteSpeaker: "~  Buffy Summers",
+        image: "url('./images/buffyQuote-00016.png')",
+    },
+    {
+        quotedText: "You\'ve got something in your eye.", 
+        quoteSpeaker: "~  The Master",
+        image: "url('./images/buffyQuote-00017.png')",
     },
 ]
 
