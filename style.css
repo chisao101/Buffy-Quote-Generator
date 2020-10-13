@@ -32,7 +32,7 @@ body{
 }
 
 .image{
-    background-image: url('./images/263598-buffy-finale.jpg');
+    /*background-image: url('./images/263598-buffy-finale.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 432px;
