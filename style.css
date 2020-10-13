@@ -32,7 +32,6 @@ body{
 }
 
 .image{
-    /*background-image: url('./images/263598-buffy-finale.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 432px;
@@ -53,13 +52,6 @@ body{
     width: 100%;
     transition-delay: 500ms;
 }
-
-/*
-.image-container:hover .quote-container{
-    bottom: 0;
-    transition: all 300ms ease-out;
-}
-*/
 
 .speaker-div{
     text-align: right;
